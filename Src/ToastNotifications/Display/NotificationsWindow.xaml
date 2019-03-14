@@ -18,6 +18,13 @@
         Topmost="True" 
         ShowActivated="False"
         >
+		    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/ToastNotifications.Messages;component/Themes/Default.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
     <Grid>
         <local:NotificationsItemsControl x:Name="NotificationsList" ShouldReverseItems="False" />
     </Grid>

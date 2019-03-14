@@ -5,6 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:core="clr-namespace:ToastNotifications.Core;assembly=ToastNotifications"
              mc:Ignorable="d" d:DesignWidth="250" >
+			     <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/ToastNotifications.Messages;component/Themes/Default.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <Border x:Name="ContentWrapper" Style="{DynamicResource NotificationBorder}" Background="{DynamicResource ErrorColorBrush}">
         <Grid x:Name="ContentContainer">
             <Grid.ColumnDefinitions>

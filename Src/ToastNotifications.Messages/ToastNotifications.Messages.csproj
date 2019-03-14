@@ -35,7 +35,7 @@
     <ApplicationIcon>toast-notifications-icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup Condition="('$(Configuration)' == 'Release') And ('$(UseTemporarySignCert)' != 'true')">
     <AssemblyOriginatorKeyFile>../../Build/DevCrew.ToastNotifications.pfx</AssemblyOriginatorKeyFile>
@@ -95,7 +95,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="DevCrew.ToastNotifications.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -122,12 +121,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ToastNotifications\ToastNotifications.csproj">
-      <Project>{4a8879fc-9a6e-4904-910b-5c13fa5ed5be}</Project>
-      <Name>ToastNotifications</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="toast-notifications-icon.ico" />
