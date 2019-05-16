@@ -125,5 +125,11 @@
   <ItemGroup>
     <Resource Include="toast-notifications-icon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ToastNotifications\ToastNotifications.csproj">
+      <Project>{4a8879fc-9a6e-4904-910b-5c13fa5ed5be}</Project>
+      <Name>ToastNotifications</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
