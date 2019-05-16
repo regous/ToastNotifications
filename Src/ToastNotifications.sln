@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToastNotifications.Messages
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNotificationsExample", "Examples\CustomNotificationsExample\CustomNotificationsExample.csproj", "{C406B971-ED9A-4633-9626-32FEDCCF9262}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample", "ConsoleExample\ConsoleExample.csproj", "{8D17D410-C064-4341-A93D-18EFFFA08EA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample", "Examples\ConsoleExample\ConsoleExample.csproj", "{8D17D410-C064-4341-A93D-18EFFFA08EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

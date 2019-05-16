@@ -52,11 +52,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ToastNotifications.Messages\ToastNotifications.Messages.csproj">
+    <ProjectReference Include="..\..\ToastNotifications.Messages\ToastNotifications.Messages.csproj">
       <Project>{4de2f314-b19f-423e-92d8-7d3a7d9acea2}</Project>
       <Name>ToastNotifications.Messages</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ToastNotifications\ToastNotifications.csproj">
+    <ProjectReference Include="..\..\ToastNotifications\ToastNotifications.csproj">
       <Project>{4a8879fc-9a6e-4904-910b-5c13fa5ed5be}</Project>
       <Name>ToastNotifications</Name>
     </ProjectReference>
